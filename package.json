@@ -4,6 +4,8 @@
   "main": "index.js",
   "license": "MIT",
   "dependencies": {
+    "dotenv": "^6.2.0",
+    "node-static": "^0.7.11",
     "npm": "^6.9.0",
     "testcafe": "^1.1.0",
     "testcafe-browser-provider-browserstack": "^1.8.0"
