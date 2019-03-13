@@ -8,7 +8,7 @@ createTestCafe("localhost", 1337, 1338)
     const runner = testcafe.createRunner();
     return runner
       .src("local-test.js")
-      .browsers(["chrome"])
+      .browsers(["browserstack:Edge@15.0:Windows 10"])
       .run();
   })
   .then(res => {
