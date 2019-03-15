@@ -5,5 +5,8 @@
   "reporter": {
     "name": "xunit",
     "output": "reports/report.xml"
-  }
+  },
+  "screenshotPath": "screenshots",
+  "takeScreenshotsOnFails": true,
+  "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png"
 }
