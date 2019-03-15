@@ -2,10 +2,7 @@
   // "browsers": ["chrome", "firefox", "chrome:emulation:device=iphone X"],
   "browsers": ["chrome"],
   "src": ["./tests/**/*.js"],
-  "reporter": {
-    "name": "xunit",
-    "output": "reports/report.xml"
-  },
+  "reporter": "slack",
   "screenshotPath": "screenshots",
   "takeScreenshotsOnFails": true,
   "screenshotPathPattern": "${DATE}_${TIME}/test-${TEST_INDEX}/${USERAGENT}/${FILE_INDEX}.png",

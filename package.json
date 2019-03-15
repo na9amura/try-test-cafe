@@ -11,6 +11,7 @@
     "node-static": "^0.7.11",
     "npm": "^6.9.0",
     "testcafe": "^1.1.0",
-    "testcafe-browser-provider-browserstack": "^1.8.0"
+    "testcafe-browser-provider-browserstack": "^1.8.0",
+    "testcafe-reporter-slack": "^0.0.6"
   }
 }
