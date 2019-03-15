@@ -6,10 +6,7 @@ createTestCafe("localhost", 1337, 1338)
   .then(tc => {
     testcafe = tc;
     const runner = testcafe.createRunner();
-    return runner
-      .src("./tests")
-      .browsers(["chrome"])
-      .run();
+    return runner.src("./tests").run();
   })
   .then(failedCount => {
     console.log({ failedCount });
