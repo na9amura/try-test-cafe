@@ -1,3 +1,4 @@
 {
-  "browsers": ["chrome", "firefox"]
+  // "browsers": ["chrome", "firefox", "chrome:emulation:device=iphone X"],
+  "browsers": ["chrome"]
 }
