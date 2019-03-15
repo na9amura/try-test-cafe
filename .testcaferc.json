@@ -1,4 +1,9 @@
 {
   // "browsers": ["chrome", "firefox", "chrome:emulation:device=iphone X"],
-  "browsers": ["chrome"]
+  "browsers": ["chrome"],
+  "src": ["./tests/**/*.js"],
+  "reporter": {
+    "name": "xunit",
+    "output": "reports/report.xml"
+  }
 }
