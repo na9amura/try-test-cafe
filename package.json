@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
+  "scripts": {
+    "test": "node runner.js"
+  },
   "dependencies": {
     "dotenv": "^6.2.0",
     "node-static": "^0.7.11",
