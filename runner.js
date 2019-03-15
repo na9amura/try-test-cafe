@@ -2,7 +2,7 @@ require("dotenv").config();
 const createTestCafe = require("testcafe");
 let testcafe = null;
 
-createTestCafe("localhost", 1337, 1338)
+createTestCafe()
   .then(tc => {
     testcafe = tc;
     const runner = testcafe.createRunner();
